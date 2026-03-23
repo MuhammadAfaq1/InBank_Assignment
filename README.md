@@ -2,60 +2,63 @@
 Installation & Setup:
 
 Clone the repository:
-
+```bash
 git clone https://github.com/MuhammadAfaq1/InBank_Assignment.git
-
 cd InBank_assignment
+```
 
 Install dependencies:
-
+```bash
 npm install
-
+```
 If starting from scratch:
-
+```bash
 npm init -y
 
 npm install express cors
-
+```
 Run Backend:
-
+```bash
 node server.js
+```
 
 Server runs on:
+```bash
 http://localhost:5000
-
-The server will run on http://localhost:5000.
+```
 
 Frontend Setup:
 Go to Client Folder:
-
+```bash
 cd client
-
+```
 If not created yet:
-
+```bash
 npm create vite@latest client
 
 cd client
 
 npm install
+```
 
 Run Frontend
-
+```bash
 npm run dev
-
+```
 Frontend runs on:
+```bash
 http://localhost:5174
-
+```
 API Documentation
 
 Endpoint
-
+```bash
 POST /api/decision
-
+```
 Full URL
-
+```bash
 http://localhost:5000/api/decision
-
+```
 Thought process:
 
 1. Algorithmic Efficiency (Binary Search)
