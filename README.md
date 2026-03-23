@@ -1,43 +1,59 @@
 
 Installation & Setup:
 
-Clone the repository
-git clone <repository-url>
+Clone the repository:
+
+git clone https://github.com/MuhammadAfaq1/InBank_Assignment.git
+
 cd InBank_assignment
 
-Install dependencies
+Install dependencies:
+
 npm install
 
-If starting from scratch
+If starting from scratch:
+
 npm init -y
+
 npm install express cors
 
-Run Backend
+Run Backend:
+
 node server.js
 
-Server runs on
+Server runs on:
 http://localhost:5000
 
 The server will run on http://localhost:5000.
 
 Frontend Setup:
-Go to Client Folder
+Go to Client Folder:
+
 cd client
 
-If not created yet
+If not created yet:
+
 npm create vite@latest client
+
 cd client
+
 npm install
+
 Run Frontend
+
 npm run dev
 
-Frontend runs on
+Frontend runs on:
 http://localhost:5174
 
 API Documentation
+
 Endpoint
+
 POST /api/decision
+
 Full URL
+
 http://localhost:5000/api/decision
 
 Thought process:
