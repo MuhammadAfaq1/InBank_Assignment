@@ -77,10 +77,13 @@ question to answer:
 Q: What is one thing you would improve about the take-home assignment and how would you improve it?
 
 I would improve the 'Decision Heuristic' regarding alternative loan offers.
+
 Currently, if a user's requested period is not viable, the engine finds the first period that provides the maximum possible loan. However, the 'maximum' sum is not always the best financial decision for the customer, they might prefer the shortest possible period to minimize interest, even if the loan amount is smaller.
 
 I would modify the engine to return a 'Loan Menu'. Instead of one result, the API would return three distinct options:
 
 Closest Match: The closest possible amount to the user's original request.
+
 Maximum Debt: The absolute highest sum they qualify for (usually at a 60 month period).
+
 Shortest Term: The fastest way to repay the minimum 2000€ loan.
