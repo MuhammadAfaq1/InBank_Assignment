@@ -57,6 +57,7 @@ I chose to use Semantic HTTP Status Codes to distinguish between different types
 The solution follows the Separation of Concerns principle. The decision engine logic is decoupled from the Express routing, allowing for easier unit testing and maintainability.
 
 question to answer:
+
 Q: What is one thing you would improve about the take-home assignment and how would you improve it?
 
 I would improve the 'Decision Heuristic' regarding alternative loan offers.
